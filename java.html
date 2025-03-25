@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <title>JS Example</title>
+</head>
+<body>
+    <h1 id="abc">JS Example</h1>
+    <form action="home.html" onsubmit="return validate()">
+        Username:<input type="text" name="username" id="username" value="" />
+        <p id="umsg"></p>
+        Password: <input type="password" name="password" id="password" value="" />
+        <p id="pmsg"></p>
+        <input type="submit" name="submit" id="submit" value="submit" />
+        <p id="vmsg"></p>
+    </form>
+    <script>
+
+        let name = "arman";
+
+        let std = [1, 'arman', 2.5, 'arman@aiub.edu'];
+        std[0];
+
+        for(let i=0; i<10; i++){
+            console.log(i);
+        }
+
+        function abc(a, b){
+            return a+b;
+        }
+
+        let f1 = function(a,b){
+            return a+b;
+        }
+
+        let f2 = (a,b)=>a+b;
+
+        console.log('test');
+
+        function abc(){
+            let head = document.getElementById('head');
+            head.innerHTML = "TESTING from JS";
+        }
+
+        function test(){
+            let username = document.getElementById('username').value;
+            let msg = document.getElementById('msg');
+
+            if(username == ""){
+                msg.innerHTML = "please type username first!";
+                msg.style.color = 'red';
+            }else{
+                document.getElementById('abc').innerHTML = username;
+                msg.innerHTML = "";
+            }
+        }
+
+        function validate(){
+
+            return true;
+        }
+    </script>
+</body>
+</html><html lang="en">
+<head>
+    <title>JS Example</title>
+</head>
+<body>
+    <h1 id="abc">JS Example</h1>
+    <form action="home.html" onsubmit="return validate()">
+        Username:<input type="text" name="username" id="username" value="" />
+        <p id="umsg"></p>
+        Password: <input type="password" name="password" id="password" value="" />
+        <p id="pmsg"></p>
+        <input type="submit" name="submit" id="submit" value="submit" />
+        <p id="vmsg"></p>
+    </form>
+    <script>
+
+        let name = "arman";
+
+        let std = [1, 'arman', 2.5, 'arman@aiub.edu'];
+        std[0];
+
+        for(let i=0; i<10; i++){
+            console.log(i);
+        }
+
+        function abc(a, b){
+            return a+b;
+        }
+
+        let f1 = function(a,b){
+            return a+b;
+        }
+
+        let f2 = (a,b)=>a+b;
+
+        console.log('test');
+
+        function abc(){
+            let head = document.getElementById('head');
+            head.innerHTML = "TESTING from JS";
+        }
+
+        function test(){
+            let username = document.getElementById('username').value;
+            let msg = document.getElementById('msg');
+
+            if(username == ""){
+                msg.innerHTML = "please type username first!";
+                msg.style.color = 'red';
+            }else{
+                document.getElementById('abc').innerHTML = username;
+                msg.innerHTML = "";
+            }
+        }
+
+        function validate(){
+
+            return true;
+        }
+    </script>
+</body>
+</html>
